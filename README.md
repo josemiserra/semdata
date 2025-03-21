@@ -1,13 +1,13 @@
-# Extract Metadata
+# Extract Metadata from SEM images
 
 ## Description
-This is a simple GUI-based application that allows users to extract XML metadata from .tiff image files into HTML format from Fibics SEM Atlas. The program uses Python's Tkinter for the graphical interface and `xml.etree.ElementTree` for XML parsing.
+This is a simple GUI-based application that allows users to extract XML metadata from .tiff image files into HTML format coming from Fibics SEM Atlas software. The program uses Python's Tkinter for the graphical interface and `xml.etree.ElementTree` for XML parsing.
 
 There is also a script version.
 
 Authors:
-José Miguel Serra Lleti
-Anna Steyer
+- José Miguel Serra Lleti
+- Anna Steyer
 
 ## Features
 - Select an image file using a file dialog or using the script
