@@ -19,7 +19,7 @@ def xml_to_html(xml_string):
     
     def traverse(element):
         """Recursively traverse XML elements and convert them into HTML."""
-        html = f"<div><strong>{element.tag}:</strong> "
+        html = f"<div><strong>{element.tag}:</strong>"
         if element.text and element.text.strip():
             html += f"{element.text.strip()}"
         html += "</div>"
